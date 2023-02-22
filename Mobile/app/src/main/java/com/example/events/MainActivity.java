@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         //alterando nos objetos
         texto.setAnimation(animText);
+        texto.setText(R.string.carregar);
         imagem.setAnimation(animImg);
 
         //depois de 3segundo carrega a tela principal
