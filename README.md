@@ -2,31 +2,33 @@
 
 # Events
 
-O problema consiste na necessidade de desenvolver um aplicativo que permita a compra de bilhetes para eventos de forma prática e eficiente, tanto para os clientes que desejam adquirir ingressos quanto para os organizadores que desejam gerir a venda de bilhetes de forma mais automatizada.
+O problema consiste na necessidade de desenvolver uma aplicação que permita a compra de bilhetes para eventos de forma prática e eficiente, tanto para os clientes que desejam adquirir ingressos quanto para os organizadores que desejam gerir a venda de bilhetes de forma mais automatizada.
 
-O aplicativo deverá permitir o registo de novos utilizadores, incluindo clientes, organizadores e funcionários. Os clientes poderão navegar pelo aplicativo e procurar por eventos que desejam participar, visualizando informações como data, hora, local, preço e disponibilidade de bilhetes. Eles poderão efetuar a compra de bilhetes por meio do aplicativo, gerando um comprovante em PDF com um código QR exclusivo.
+A aplicação deverá permitir o registo de novos utilizadores, incluindo clientes, organizadores e funcionários. Os clientes poderão navegar pela aplicação e procurar por eventos que desejam participar, visualizando informações como data, hora, local, preço e disponibilidade de bilhetes. Eles poderão efetuar a compra de bilhetes por meio da aplicação, gerando um comprovativo em PDF com um código QR exclusivo.
 
-Os organizadores de eventos poderão se regista no aplicativo e registar seus eventos, fornecendo informações como data, hora, local, preço e quantidade de bilhetes disponíveis. Eles poderão gerenciar as vendas de bilhetes pelo aplicativo, controlando a quantidade de ingressos disponíveis, verificando as vendas realizadas e recebendo os valores referentes às vendas de bilhetes.
+Os organizadores de eventos poderão registar-se na aplicação e registar os seus eventos, fornecendo informações como data, hora, local, preço e quantidade de bilhetes disponíveis. Eles poderão gerir as vendas de bilhetes através da aplicação, controlando a quantidade de ingressos disponíveis, verificando as vendas realizadas e recebendo os valores referentes às vendas de bilhetes.
 
 Os funcionários, por sua vez, serão responsáveis por validar as contas dos organizadores e auxiliá-los no gerenciamento das vendas de bilhetes. Eles também poderão realizar vendas de bilhetes presencialmente em uma sede da empresa, utilizando um aplicativo desktop específico para esse fim.
 
-O aplicativo deverá contar ainda com um sistema de busca avançada que permita aos usuários localizar eventos por meio de uma interface amigável e intuitiva, utilizando filtros como localização, data e tipo de evento. Além disso, será importante que o aplicativo permita o compartilhamento o evento (cada evento possui uma localização) ajudando a aumentar a divulgação e o interesse do público em geral pelos eventos oferecidos.
-Vai possuir um web site contendo informações importantes do aplicativo da Empresa, usando a tecnologia de Bootstrap.
-
-Este aplicativo serve para dispositivos com API igual ou superior a versãp *5.1.1 (lolipop ![android](https://user-images.githubusercontent.com/79022289/169653623-6bf5e989-e48e-4efc-b351-6fa10d343ee5.png))*
+A aplicação deverá contar ainda com um sistema de busca avançada que permita aos utilizadores localizar eventos através de uma interface amigável e intuitiva, utilizando filtros como localização, data e tipo de evento. Além disso, será importante que a aplicação permita o compartilhamento do evento (cada evento possui uma localização) ajudando a aumentar a divulgação e o interesse do público em geral pelos eventos oferecidos.
+Haverá um site contendo informações importantes da Empresa.
 
 ---
 ## Contexto
-Este projeto tem como objetivo apresentar o projeto desenvolvido para a criação de um sistema de compra de bilhetes para eventos, que permite que clientes comprem bilhetes de eventos por meio de um aplicativo móvel e desktop. O sistema tem como foco principal facilitar o processo de compra de bilhetes, além de fornecer uma plataforma para gerenciamento de eventos para organizadores.
-Este projeto é um projeto final de curso, Licenciatura em Informática e comunicações
+Este projeto tem como objetivo apresentar o projeto desenvolvido para a criação de um sistema de compra de bilhetes para eventos, que permite que clientes comprem bilhetes de eventos através de uma aplicação móvel e desktop. O sistema tem como foco principal facilitar o processo de compra de bilhetes, além de fornecer uma plataforma para o gerenciamento de eventos para organizadores.
 
+---
+## 💻 Tecnologias
+- React Nativa (aplicação movel)
+- React (aplicação web)
+- JavaFX (aplicação desktop)
+- base de dados MySQL
 
 ---
 ## 🔨 Requesitos:
 - [ ] Layouts prontos
 - [ ] Sistema Login e logout do cliente e do organizador
 - [ ] Sistema registo cliente e do organizador
-- [ ] Web Service (Java) e o banco de dados (MySQL)
 - [ ] CRUD dos eventos
 - [ ] pesquisa de eventos por localização e por nome
 - [ ] Enviar ao cliente o bilhete PDF por email
@@ -39,16 +41,8 @@ Este projeto é um projeto final de curso, Licenciatura em Informática e comuni
 ---
 ## 🌐 Idiomas
 - Português
-- Espanhol
 - Ingles
-- Francês
 
----
-## 💻 Tecnologias
-- Mobile (Android Studio com Java)
-- Despot (Java Swing - JFrame)
-- Web Service (Netbeans com Java)
-- Web Site (Bootstrap)
 
 
 ---
